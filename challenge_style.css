@@ -1,0 +1,76 @@
+body{
+  background-image:url("background.jpg");
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* contenitore1 sfondo nero */
+.contenitore1{
+  background-color: rgba(0,0,0,0.5);
+  width: 1100px;
+  height: 700px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+/* contenitore2 corpo del sito */
+.contenitore2{
+  width: 900px;
+  margin: auto;
+}
+
+header{
+  text-align: center;
+}
+
+header>img{
+  width: 200px;
+  margin-top: 90px;
+}
+
+header>div{
+  color:#3de100;
+  font-size: 35px;
+}
+
+nav{
+  background-color: #3de100;
+  text-align: center;
+  padding: 8px;
+}
+
+main{
+  color: white;
+  padding-left: 8px;
+}
+
+main>div{
+  padding-top: 20px;
+}
+
+div>span{
+  display: inline-block;
+  font-size:25px;
+}
+
+.barracolorata1{
+  background-color: orange;
+  height: 25px;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.barracolorata2{
+  background-color: limegreen;
+  height: 25px;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.barracolorata3{
+  background-color: indianred;
+  height: 25px;
+  border-radius: 5px;
+  width: 12%
+}
